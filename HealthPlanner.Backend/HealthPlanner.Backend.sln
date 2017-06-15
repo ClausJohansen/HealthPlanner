@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HealthPlanner.Backend", "He
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HealthPlanner.Backend.Tests", "HealthPlanner.Backend.Tests\HealthPlanner.Backend.Tests.csproj", "{D61273A8-C9E4-43B6-BBCD-CCB1A9D358C0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HealthPlanner.Data", "..\HealthPlanner.Data\HealthPlanner.Data\HealthPlanner.Data.csproj", "{5688C3E4-AF85-42FF-A05E-71DD7CB3BE00}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{D61273A8-C9E4-43B6-BBCD-CCB1A9D358C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D61273A8-C9E4-43B6-BBCD-CCB1A9D358C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D61273A8-C9E4-43B6-BBCD-CCB1A9D358C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5688C3E4-AF85-42FF-A05E-71DD7CB3BE00}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5688C3E4-AF85-42FF-A05E-71DD7CB3BE00}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5688C3E4-AF85-42FF-A05E-71DD7CB3BE00}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5688C3E4-AF85-42FF-A05E-71DD7CB3BE00}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

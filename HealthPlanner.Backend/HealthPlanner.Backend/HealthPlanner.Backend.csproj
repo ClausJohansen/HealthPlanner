@@ -90,6 +90,7 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Utility\DatabaseManager.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
@@ -104,6 +105,12 @@
     <Folder Include="App_Data\" />
     <Folder Include="Controllers\" />
     <Folder Include="Models\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\HealthPlanner.Data\HealthPlanner.Data\HealthPlanner.Data.csproj">
+      <Project>{5688C3E4-AF85-42FF-A05E-71DD7CB3BE00}</Project>
+      <Name>HealthPlanner.Data</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

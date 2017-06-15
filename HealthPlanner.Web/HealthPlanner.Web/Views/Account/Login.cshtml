@@ -1,0 +1,20 @@
+﻿@model HealthPlanner.Web.Models.UserModel
+
+@using (Html.BeginForm())
+{
+    <h2>Login</h2>
+
+    @Html.ValidationSummary(true)
+
+    @Html.LabelFor(model => model.Username)
+    @Html.EditorFor(model => model.Username)
+    @Html.ValidationMessageFor(model => model.Username)
+
+    @Html.LabelFor(model => model.Password)
+    @Html.PasswordFor(model => model.Password)
+    @Html.ValidationMessageFor(model => model.Password)
+
+    <input type="submit" value="Log ind" />
+}
+
+@Html.ActionLink("Opret en profil", "Create")

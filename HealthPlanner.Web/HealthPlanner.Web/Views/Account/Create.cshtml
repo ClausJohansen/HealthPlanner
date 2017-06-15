@@ -1,0 +1,16 @@
+﻿@model UserModel
+
+<h2>Opret bruger</h2>
+
+@using (Html.BeginForm())
+{
+
+    @Html.EditorFor(model => model.Username)
+
+    @Html.EditorFor(model => model.Password)
+
+    <input type="submit" value="Opret bruger" />
+}
+
+
+@Html.ActionLink("tilbage til login", "Login")

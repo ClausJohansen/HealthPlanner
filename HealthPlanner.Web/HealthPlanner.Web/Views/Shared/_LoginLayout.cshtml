@@ -1,0 +1,21 @@
+﻿<!DOCTYPE html>
+
+<html>
+    <head>
+
+        <title>Healthplanner</title>
+
+        @Scripts.Render("~/bundles/jquery")
+        @Scripts.Render("~/bundles/bootstrap")
+        @RenderSection("scripts", required: false)
+
+    </head>
+
+    <body>
+        <h1>Healthplanner</h1>
+        <h2>Du er ikke logget ind</h2>
+        <div>
+            @RenderBody()
+        </div>
+    </body>
+</html>
